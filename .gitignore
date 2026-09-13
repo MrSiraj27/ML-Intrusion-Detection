@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/*
+!data/.gitkeep
+.env
+
+# Trained models are large binary artifacts — regenerate via the notebooks
+models/*.joblib
+
+# Logs from locally-run background processes
+*.log
+
